@@ -1,0 +1,4 @@
+framework module AircoreChatUI {
+  header "AircoreChatUI-Swift.h"
+  requires objc
+}

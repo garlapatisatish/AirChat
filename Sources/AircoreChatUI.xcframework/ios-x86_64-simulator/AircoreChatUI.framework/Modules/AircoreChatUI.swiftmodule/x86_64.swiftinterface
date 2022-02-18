@@ -1,0 +1,146 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target x86_64-apple-ios14.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name AircoreChatUI
+import AircoreChatData
+import AircoreUI
+import AircoreVM
+import Combine
+import Foundation
+import Swift
+import UIKit.UIImage
+import UIKit
+import _Concurrency
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ChatBottomBar : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public var leftViews: [UIKit.UIView] {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var rightViews: [UIKit.UIView] {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public init(viewModel: AircoreChatUI.ChatBottomBarViewModel, leftViews: [UIKit.UIView] = [], rightViews: [UIKit.UIView] = [])
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ChatBottomBarViewModel {
+  public var cancellables: Swift.Set<Combine.AnyCancellable>
+  @AircoreVM.ViewValue @_projectedValueProperty($userCanSendMessages) public var userCanSendMessages: Swift.Bool {
+    get
+  }
+  public var $userCanSendMessages: AircoreVM.ViewValue<Swift.Bool> {
+    get
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class ChatTextInput : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func tintColorDidChange()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+extension AircoreChatUI.ChatTextInput : UIKit.UITextViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func textViewDidChange(_ textView: UIKit.UITextView)
+}
+@_hasMissingDesignatedInitializers final public class ChatMessagesViewModel {
+  @objc deinit
+}
+@objc @_Concurrency.MainActor(unsafe) public class ChatViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var headerHeight: CoreGraphics.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public init(viewModel: AircoreChatUI.ChatViewModel)
+  @available(*, unavailable)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
+  @objc deinit
+}
+public class ChatViewModel {
+  final public let bottomBarViewModel: AircoreChatUI.ChatBottomBarViewModel
+  final public let messagesViewModel: AircoreChatUI.ChatMessagesViewModel
+  final public let roomID: Swift.String
+  final public let currentUserID: Swift.String
+  final public let chatMessageRepository: AircoreChatData.ChatMessageRepository
+  public init(roomID: Swift.String, currentUserID: Swift.String, chatMessageRepository: AircoreChatData.ChatMessageRepository, bottomBarViewModel: AircoreChatUI.ChatBottomBarViewModel? = nil, messagesViewModel: AircoreChatUI.ChatMessagesViewModel? = nil)
+  @objc deinit
+}
+public enum Strings {
+  public enum Chat {
+    public enum BottomBar {
+      public enum Input {
+        public static let placeholder: Swift.String
+      }
+      public enum SendButton {
+        public static let accesibilityLabel: Swift.String
+      }
+    }
+    public enum ContextualMenu {
+      public static let copy: Swift.String
+      public static let deleteMessage: Swift.String
+      public static let pinMessage: Swift.String
+      public static let reportMessage: Swift.String
+    }
+    public enum Input {
+      public static let placeholder: Swift.String
+    }
+    public enum Row {
+      public enum Info {
+        public static let addedSomeone: Swift.String
+        public static func addedUser(_ p1: Any) -> Swift.String
+        public static let bannedSomeone: Swift.String
+        public static func bannedUser(_ p1: Any) -> Swift.String
+        public static func userChangedTheRoomTitle(_ p1: Any) -> Swift.String
+        public static func userChangedTheRoomTitleTo(_ p1: Any, _ p2: Any) -> Swift.String
+        public static func userChangedTheRoomTopic(_ p1: Any) -> Swift.String
+        public static func userChangedTheRoomTopicTo(_ p1: Any, _ p2: Any) -> Swift.String
+        public static func userChangedVisibilityToPrivate(_ p1: Any) -> Swift.String
+        public static func userChangedVisibilityToPublic(_ p1: Any) -> Swift.String
+        public static func userDeletedAMessage(_ p1: Any) -> Swift.String
+        public static func userDeletedRoomHistory(_ p1: Any) -> Swift.String
+        public static func userEditedRoomTags(_ p1: Any, _ p2: Any) -> Swift.String
+        public static func userJoinedTheRoom(_ p1: Any) -> Swift.String
+        public static func userPresentedAGif(_ p1: Any) -> Swift.String
+        public static func userPresentedASoundcloudSong(_ p1: Any) -> Swift.String
+        public static func userPresentedATwitchVideo(_ p1: Any) -> Swift.String
+        public static func userPresentedAVideo(_ p1: Any) -> Swift.String
+        public static func userPresentedAVimeo(_ p1: Any) -> Swift.String
+        public static func userPresentedAYoutubeVideo(_ p1: Any) -> Swift.String
+        public static func userPresentedAnHLSMovie(_ p1: Any) -> Swift.String
+        public static func userPresentedCountImages(_ p1: Any, _ p2: Swift.Int) -> Swift.String
+        public static func userRemovedRoomTags(_ p1: Any) -> Swift.String
+        public static func userRequestToGoLive(_ p1: Any) -> Swift.String
+        public static func userRequestToGoLiveIsPending(_ p1: Any) -> Swift.String
+        public static func userRequestedToJoin(_ p1: Any) -> Swift.String
+        public enum RoomCallSummary {
+          public static func wereOnStage(_ p1: Any, _ p2: Swift.Int) -> Swift.String
+        }
+      }
+      public enum Media {
+        public static let movie: Swift.String
+        public static let twitch: Swift.String
+        public static let video: Swift.String
+        public static let youtube: Swift.String
+        public enum Video {
+          public static func title(_ p1: Any) -> Swift.String
+        }
+      }
+    }
+  }
+  public enum User {
+    public enum DeletedUser {
+      public static let username: Swift.String
+    }
+  }
+}
+@_inheritsConvenienceInitializers @objc public class AircoreChatUIResources : ObjectiveC.NSObject {
+  @objc public class var bundle: Foundation.Bundle {
+    @objc get
+  }
+  @objc override dynamic public init()
+  @objc deinit
+}
