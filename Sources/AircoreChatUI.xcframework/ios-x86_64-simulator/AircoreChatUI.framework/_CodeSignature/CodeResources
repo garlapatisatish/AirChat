@@ -10,31 +10,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OPwKU9JVZ8z3RsR1aZwkpCWRnac=
+		r7nUJsxmxRGBlD/TfcvSwSXYUNc=
 		</data>
 		<key>Modules/AircoreChatUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ZxYq4XH/9gXr0yYOgT38jKcDrEI=
+		RMId0jnWaPCNOwEgievhCQVIynQ=
 		</data>
 		<key>Modules/AircoreChatUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IDT/YPyGypbW0BAbwI0XrysRAP0=
+		+xMEgINHU1vJprwphxcoa0gj/EU=
 		</data>
 		<key>Modules/AircoreChatUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2yzc9co9a9TU86bEzznDOkmIJEQ=
+		RCbKUM10Uq9iojT8O4i8HbqGSUk=
 		</data>
 		<key>Modules/AircoreChatUI.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		ZxYq4XH/9gXr0yYOgT38jKcDrEI=
+		RMId0jnWaPCNOwEgievhCQVIynQ=
 		</data>
 		<key>Modules/AircoreChatUI.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		IDT/YPyGypbW0BAbwI0XrysRAP0=
+		+xMEgINHU1vJprwphxcoa0gj/EU=
 		</data>
 		<key>Modules/AircoreChatUI.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		2yzc9co9a9TU86bEzznDOkmIJEQ=
+		RCbKUM10Uq9iojT8O4i8HbqGSUk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,42 +72,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z0Lvi4fv2iyzhNcncB07P0CzD/ZlUpU940UP6t38pzE=
+			Mq8g4kPJSrW6n4/tjuPUQKbmAX5kWDYqfVSmsNFoQpA=
 			</data>
 		</dict>
 		<key>Modules/AircoreChatUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MZo08S8eQnkCNgCC/+LwE2AoE7VcF5lnAtuazBwz3QA=
+			PTjGf0LJi3jxY56ACwwz0joamJbRkKh+mKEdIEkt/cA=
 			</data>
 		</dict>
 		<key>Modules/AircoreChatUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l0PpoJ5GXFZEKtjd9o26MlbBcjKn/zAVD10r/9SQPoc=
+			nXZgP6IqV/FHpugqfKdFvW27vEm9IKtpiFDMk2ET6DI=
 			</data>
 		</dict>
 		<key>Modules/AircoreChatUI.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z0Lvi4fv2iyzhNcncB07P0CzD/ZlUpU940UP6t38pzE=
+			Mq8g4kPJSrW6n4/tjuPUQKbmAX5kWDYqfVSmsNFoQpA=
 			</data>
 		</dict>
 		<key>Modules/AircoreChatUI.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MZo08S8eQnkCNgCC/+LwE2AoE7VcF5lnAtuazBwz3QA=
+			PTjGf0LJi3jxY56ACwwz0joamJbRkKh+mKEdIEkt/cA=
 			</data>
 		</dict>
 		<key>Modules/AircoreChatUI.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l0PpoJ5GXFZEKtjd9o26MlbBcjKn/zAVD10r/9SQPoc=
+			nXZgP6IqV/FHpugqfKdFvW27vEm9IKtpiFDMk2ET6DI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
